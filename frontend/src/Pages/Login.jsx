@@ -41,7 +41,7 @@ const Login = () => {
 
         if (decoded.role === 'admin') {
           setTimeout(() => {
-            navigate('/admin');
+            navigate('/home');
           }, 3000);
         } else {
           setTimeout(() => {
